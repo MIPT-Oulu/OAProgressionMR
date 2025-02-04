@@ -1,6 +1,8 @@
 # oaprmr - Osteoarthritis Progression Prediction from MR data
 
-Source code accompanying ISBI 2022 publication, https://arxiv.org/abs/2201.10849:
+Source code accompanying the ISBI 2022 publication [[paper]](https://doi.org/10.1109/ISBI52829.2022.9761458) [[arXiv preprint]](https://arxiv.org/abs/2201.10849).
+
+See also our *multimodal extension* of this work - https://github.com/imedslab/OAProgressionMMF .
 
 <p align="center">
 <img src="doc/pic_title.png" width="700" alt="Title"/> 
@@ -12,7 +14,7 @@ Source code accompanying ISBI 2022 publication, https://arxiv.org/abs/2201.10849
 
 ### Description
 
-1. The code requires the OAI Baseline/00m dataset - textual variables and SAG 3D DESS MR
+1. The code requires the OAI Baseline (i.e. `00m`) dataset - textual variables and SAG 3D DESS MR
  images.
 
 2. Create a Conda environment from `environment.yml`. Install the code as a Python module.
